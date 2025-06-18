@@ -28,6 +28,7 @@ map("n", "<C-r>", "<C-r>", { desc = "Redo" })
 map("i", "<C-z>", "<C-o>u", { desc = "Undo in insert mode" })
 map("i", "<C-r>", "<C-o><C-r>", { desc = "Redo in insert mode" })
 
-map("n", "<C-p>", "<cmd>Telescope find_files<CR>", { desc = "Find files (Ctrl+P)" })
+map("n", "<S-p>", "<cmd>Telescope find_files<CR>", { desc = "Find files (Ctrl+P)" })
 map("n", "<C-f>", "<cmd>Telescope current_buffer_fuzzy_find<CR>", { desc = "Fuzzy find in current buffer" })
+-- map("n", "<A-S-f>", "<cmd>Telescope live_grep<CR>", { desc = "Global text search" })
 
