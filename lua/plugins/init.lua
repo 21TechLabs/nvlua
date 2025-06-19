@@ -13,11 +13,6 @@ return {
     end,
   },
 
-  {
-    "mg979/vim-visual-multi",
-    lazy = false
-  }
-
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
